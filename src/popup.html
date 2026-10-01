@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Proxy Clear</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main>
+    <div class="brand">
+      <div class="shield">PC</div>
+      <div>
+        <h1>Proxy Clear</h1>
+        <p>پاک‌سازی Proxy سیستم و مرورگر</p>
+      </div>
+    </div>
+    <section class="status" id="status">
+      <div class="status-dot" id="dot"></div>
+      <div>
+        <strong id="statusTitle">در حال بررسی…</strong>
+        <div id="statusText">وضعیت Proxy خوانده می‌شود.</div>
+      </div>
+    </section>
+    <button id="clearBtn" class="primary">پاک کردن همه Proxyها</button>
+    <button id="scanBtn" class="secondary">بررسی دوباره</button>
+    <pre id="details"></pre>
+    <p class="note">Proxyهای اعمال‌شده با Policy سازمانی یا پارامتر خط فرمان ممکن است نیاز به تغییر Policy یا اجرای مجدد مرورگر داشته باشند.</p>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>

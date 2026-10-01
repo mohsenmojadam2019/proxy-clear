@@ -1,0 +1,21 @@
+:root { color-scheme: dark; font-family: Arial, Tahoma, sans-serif; }
+* { box-sizing: border-box; }
+body { margin: 0; width: 390px; min-height: 430px; background: #0b1020; color: #f6f8ff; }
+main { padding: 18px; }
+.brand { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; }
+.brand h1 { margin: 0; font-size: 20px; }
+.brand p { margin: 4px 0 0; color: #aeb7cd; font-size: 12px; }
+.shield { width: 46px; height: 46px; border-radius: 14px; display: grid; place-items: center; background: #182445; font-weight: 800; }
+.status { display: flex; gap: 10px; padding: 14px; border: 1px solid #273350; border-radius: 14px; background: #11192d; margin-bottom: 14px; }
+.status strong { display: block; margin-bottom: 5px; }
+.status #statusText { color: #aeb7cd; font-size: 12px; line-height: 1.6; }
+.status-dot { width: 12px; height: 12px; border-radius: 50%; margin-top: 4px; background: #7b879f; flex: 0 0 auto; }
+.status-dot.good { background: #40c980; }
+.status-dot.warn { background: #f2b84b; }
+.status-dot.bad { background: #f06666; }
+button { width: 100%; border: 0; border-radius: 12px; padding: 12px 14px; cursor: pointer; font-size: 14px; margin-bottom: 9px; }
+button:disabled { opacity: .55; cursor: wait; }
+.primary { background: #e8edf9; color: #0b1020; font-weight: 700; }
+.secondary { background: #182445; color: #f6f8ff; }
+pre { direction: ltr; text-align: left; max-height: 170px; overflow: auto; white-space: pre-wrap; word-break: break-word; background: #080d18; border: 1px solid #202b43; border-radius: 12px; padding: 10px; font-size: 10px; color: #9fb0d4; }
+.note { color: #7f8aa3; font-size: 10px; line-height: 1.6; margin: 10px 2px 0; }

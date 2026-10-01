@@ -1,0 +1,6 @@
+dist/
+*.zip
+*.xpi
+*.pem
+__pycache__/
+*.pyc
